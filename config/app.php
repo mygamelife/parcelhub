@@ -168,13 +168,8 @@ return [
          * Package Service Providers...
          */
         Laravel\Tinker\TinkerServiceProvider::class,
-        Laravel\Socialite\SocialiteServiceProvider::class,
         Oriceon\Settings\SettingsServiceProvider::class,
-        Zizaco\Entrust\EntrustServiceProvider::class,
         Barryvdh\DomPDF\ServiceProvider::class,
-        Bader\ClearOrdersBy\clearOrdersByServiceProvider::class,
-        Milon\Barcode\BarcodeServiceProvider::class,
-        LynX39\LaraPdfMerger\PdfMergerServiceProvider::class,
 
         /*
          * Application Service Providers...
